@@ -403,9 +403,9 @@
         </div>
       </section>
     </main>
-
-    <div class="page-footer">
-      <div class="container social-footer">
+    <footer class="footer">
+      <div class="page-footer">
+        < class="container social-footer">
         <div class="main_footer">
           <a class="low" href="./index.html"
             >Web<span class="foot">Studio</span></a
@@ -445,32 +445,33 @@
             </li>
           </ul>
         </div>
+        <div class="subscribe">
+          <p class="subscribe-text">Subscribe</p>
+          <form class="subscribe-form">
+            <label class="subscribe-label">
+              <input
+                name="email-subscribe"
+                type="email"
+                class="email-subscribe"
+                placeholder="E-mail"
+              />
+            </label>
+            <button type="submit" class="subscribe-btn">
+              Subscribe
+              <svg
+                class="icon send"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
-      <div class="subscribe">
-        <p class="subscribe-text">Subscribe</p>
-        <form class="subscribe-form">
-          <label class="subscribe-label"></label>
-          <input
-            name="email-subscribe"
-            type="email"
-            class="email-subscribe"
-            placeholder="E-mail"
-          />
-          <button type="submit" class="subscribe-btn">
-            Subscribe
-            <svg
-              class="icon send"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-            >
-              <use href="./images/icons.svg#icon-icon-send"></use>
-            </svg>
-          </button>
-        </form>
-      </div>
-    </div>
+    </footer>
     <div class="modal-overlay is-open">
       <div class="modal">
         <button type="button" class="close-btn" aria-label="Close">
