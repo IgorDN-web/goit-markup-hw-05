@@ -349,6 +349,7 @@ img {
 }
 
 .icon {
+    margin-left: 16px;
     margin-bottom: 0;
     align-items: center;
     justify-content: center;
@@ -417,10 +418,6 @@ img {
     color: #4d5ae5;
     display: inline-block;
     margin-bottom: 16px;
-}
-
-.footer .icon {
-    margin-left: 16px;
 }
 
 .page-footer {
