@@ -419,6 +419,10 @@ img {
     margin-bottom: 16px;
 }
 
+.footer .icon {
+    margin-left: 16px;
+}
+
 .page-footer {
     background-color: #2e2f42;
     padding: 100px 0 100px;
