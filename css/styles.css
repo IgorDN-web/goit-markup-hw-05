@@ -735,6 +735,7 @@ svg {
 }
 
 .form-icon {
+    margin-left: 16px;
     position: absolute;
     height: 24px;
     left: 16px;
