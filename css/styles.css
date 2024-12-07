@@ -15,6 +15,7 @@ a {
 ul {
     list-style: none;
     padding-left: 0;
+    margin: 0;
 }
 
 h1,
@@ -349,7 +350,6 @@ img {
 }
 
 .icon {
-    margin-left: 16px;
     margin-bottom: 0;
     align-items: center;
     justify-content: center;
@@ -421,9 +421,8 @@ img {
 }
 
 .page-footer {
+    display: flex;
     background-color: #2e2f42;
-    padding: 100px 0 100px;
-    margin-bottom: 16px;
 }
 
 .page-footer .foot {
@@ -509,7 +508,7 @@ section {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
-
+    margin-right: 80px;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #ffffff;
@@ -568,7 +567,6 @@ section {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: #2e2f42;
     padding-left: 16px;
-    margin-right: 24px;
     background-color: transparent;
     font-size: 12px;
     line-height: 2;
@@ -586,6 +584,7 @@ section {
 }
 
 .subscribe-btn {
+    margin-left: 16px;
     border-radius: 4px;
     border: none;
     padding: 8px 24px;
@@ -617,7 +616,6 @@ section {
 
 .icon-send {
     fill: #fff;
-    margin-left: 16px;
 }
 /*modal*/
 .modal-overlay {
@@ -736,7 +734,6 @@ svg {
 }
 
 .form-icon {
-    margin-left: 16px;
     position: absolute;
     height: 24px;
     left: 16px;
