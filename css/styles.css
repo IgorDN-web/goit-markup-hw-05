@@ -350,6 +350,7 @@ img {
 }
 
 .icon {
+    margin-left: 16px;
     margin-bottom: 0;
     align-items: center;
     justify-content: center;
